@@ -83,3 +83,39 @@ h1 span{
     color: #ffffff;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
+
+  /* Add this at the end of your existing CSS */
+
+/* Mobile Styles */
+@media only screen and (max-width: 600px) {
+  body {
+      background-size: auto; /* Adjust background size for smaller screens */
+  }
+
+  .container {
+      width: 90%; /* Make the container width responsive */
+  }
+
+  h1 {
+      font-size: 2rem; /* Decrease font size for smaller screens */
+  }
+
+  .container .generate,
+  .container .jokes-area {
+      width: 100%; /* Adjust width for smaller screens */
+  }
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  .container {
+      width: 70%; /* Adjust container width for tablets */
+  }
+}
+
+/* Larger Desktop Styles */
+@media only screen and (min-width: 1025px) {
+  .container {
+      width: 900px; /* Keep original width for larger desktops */
+  }
+}

@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #1a1a1a; */
+    background-image: url(https://images.unsplash.com/photo-1618565917118-723caea78e02?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+}
+.container
+{
+    height: 500px;
+    width: 900px;
+    background-color: rgb(70, 70, 70);
+    border-radius: 20px;
+    text-align: center;
+    background-color: transparent;
+    backdrop-filter: blur(3px);
+    box-shadow: inset 4px 4px 20px #ffffff,
+     -6px -6px 20px #000000;
+}
+h1{
+    font-size: 3rem;
+    margin-top: 50px;
+    color: #ffffff;
+}
+h1 span{
+    text-shadow: 4px 4px 10px #00d0ff;
+    color: aqua;
+}
+.container .generate{
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+#button , #button2{
+  padding: 10px 20px;
+  background-color: #00f2ff;
+  outline: none;
+  border-radius: 20px;
+  border: none;
+  color: #fff;
+  font-weight: 600;
+
+}
+#button:hover{
+  box-shadow: 0px 0px 20px #00f2ff;
+  color: #000;
+}
+#button2:hover{
+  box-shadow: 0px 0px 20px #00f2ff;
+  color: #000;
+}
+
+
+
+
+  .container .jokes-area{
+    height: 150px;
+    padding: 20px;
+    
+    width: 80%;
+    /* background-color: red; */
+    border: 2px solid #25aae1;
+    border-radius: 20px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
